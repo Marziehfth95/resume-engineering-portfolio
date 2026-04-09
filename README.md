@@ -1,96 +1,76 @@
 # Resume Engineering Portfolio
 
-Ein GitHub-Repository, das meine technische Entwicklung sichtbar macht:
-von gezieltem Code-Training bis zu vollstaendigen Projekten mit Produktdenken,
-Architektur und sauberer Dokumentation.
+Ein sauber strukturiertes Portfolio-Repository fuer GitHub und den Lebenslauf.
+Es ist bewusst einfach aufgebaut, damit neue Arbeiten aus VS Code schnell,
+logisch und ohne Chaos einsortiert werden koennen.
 
-## Why This Repository Exists
+## Struktur
 
-Dieses Repository ist bewusst in zwei Bereiche aufgeteilt:
+Dieses Repository hat zwei Hauptbereiche:
 
-- `code_training/` zeigt kontinuierliches Lernen, Disziplin und technische Tiefe.
-- `projects/` praesentiert komplette, eigenstaendige Arbeiten mit realistischem Scope.
-
-So entsteht ein Profil, das nicht nur fertige Ergebnisse zeigt, sondern auch den Weg dorthin.
-
-## Repository Map
+- `Training/` fuer Code-Training, Uebungen und thematische Lernaufgaben
+- `Projects/` fuer komplette eigene Projekte mit echtem Showcase-Charakter
 
 ```text
 resume-engineering-portfolio/
 |-- README.md
-|-- docs/
-|-- code_training/
+|-- Training/
 |   |-- algorithms/
 |   |-- backend/
 |   |-- frontend/
 |   |-- python/
 |   `-- sql/
-|-- projects/
-|   |-- portfolio-website/
-|   |-- taskflow-api/
-|   `-- analytics-dashboard/
-`-- templates/
+`-- Projects/
+    |-- portfolio-website/
+    |-- taskflow-api/
+    `-- analytics-dashboard/
 ```
 
-## Highlights
+## Zweck
 
-- Klare Trennung zwischen Lernen und produktionsnahen Projekten
-- Struktur, die fuer Recruiter und Hiring Manager schnell scanbar ist
-- Platz fuer technische Notizen, Roadmaps und dokumentierte Entscheidungen
-- Ein Setup, das mit mir wachsen kann
+Die Idee dahinter ist einfach:
 
-## Featured Areas
+- In `Training/` kommt alles hinein, was du zum Lernen, Ueben und Vertiefen schreibst.
+- In `Projects/` kommt alles hinein, was als vollstaendiges Projekt praesentiert werden soll.
 
-### 1. Code Training
+So ist auf GitHub sofort sichtbar, was Lernfortschritt ist und was echte Projektarbeit ist.
 
-Hier dokumentiere ich gezielte Uebung in Themen wie:
+## So arbeitest du damit in VS Code
 
-- Algorithmen und Datenstrukturen
-- Backend-Logik und API-Design
-- Frontend-Komponenten und UI-Denken
-- Python-Skripting und Automatisierung
-- SQL, Datenmodellierung und Query-Training
+Wenn du neuen Code schreibst, ordnest du ihn nur einer dieser zwei Fragen zu:
 
-Ziel: regelmaessiges, nachvollziehbares Skill-Building.
+1. Ist es eine Uebung, ein Experiment oder ein Lernbeispiel?
+   Dann kommt es in `Training/`.
+2. Ist es ein komplettes Projekt mit eigener Idee, Struktur und mehreren Features?
+   Dann kommt es in `Projects/`.
 
-### 2. Complete Projects
+## Beispiel
 
-Hier liegen eigenstaendige Projekte mit:
+- LeetCode, kleine API-Uebung, SQL-Aufgabe, Python-Skript zum Lernen:
+  `Training/`
+- Portfolio-Website, Dashboard, Fullstack-App, Tool mit echtem Nutzen:
+  `Projects/`
 
-- klarer Problemdefinition
-- Zielgruppe und Nutzen
-- Architektur und Tech Stack
-- Features und Erweiterungsideen
-- Lessons Learned
+## Warum diese Struktur stark ist
 
-Ziel: zeigen, wie ich von einer Idee zu einem vollstaendigen Projekt denke und arbeite.
+- sehr leicht zu verstehen
+- sauber fuer Recruiter und Hiring Manager
+- einfach in VS Code zu pflegen
+- gut skalierbar, wenn mehr Themen oder Projekte dazukommen
 
-## Suggested GitHub Workflow
+## Empfehlung fuer neue Inhalte
 
-1. Jede neue Uebung bekommt eine kleine README oder Notiz.
-2. Jedes Projekt dokumentiert Problem, Loesung und Stack.
-3. Regelmaessige Commits machen Fortschritt sichtbar.
-4. Gute Projektbeschreibungen machen das Repository resume-tauglich.
+In `Training/`:
 
-## Good First Additions
+- pro Thema ein Unterordner
+- kleine README mit Aufgabe, Loesung und Learnings
 
-- Erste 3 Trainingsaufgaben in `code_training/algorithms/`
-- Ein kleines API-Projekt in `projects/taskflow-api/`
-- Ein persoenliches Portfolio in `projects/portfolio-website/`
-- Screenshots oder Demos spaeter in `assets/`
+In `Projects/`:
 
-## Personal Positioning
+- pro Projekt ein eigener Ordner
+- README mit Problem, Loesung, Stack, Features und Learnings
 
-Dieses Repository ist ideal, um auf dem Resume oder auf LinkedIn zu verlinken, weil es drei Dinge gleichzeitig zeigt:
+## Positioning
 
-- Lernfaehigkeit
-- Struktur und Professionalitaet
-- Initiative fuer eigene Projekte
-
-## Next Step
-
-Wenn du willst, koennen wir im naechsten Schritt auch direkt:
-
-1. ein professionelles GitHub-Profil-README dafuer bauen,
-2. die ersten drei Beispielprojekte inhaltlich fuellen,
-3. oder das Repository direkt fuer `git init` und den ersten Commit vorbereiten.
+Dieses Repository zeigt nicht nur fertige Ergebnisse, sondern auch Disziplin,
+Lernfaehigkeit und Struktur. Genau das macht es stark fuer Bewerbungen.
