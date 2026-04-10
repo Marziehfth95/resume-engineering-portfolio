@@ -6,14 +6,18 @@ logisch und ohne Chaos einsortiert werden koennen.
 
 ## Struktur
 
-Dieses Repository hat zwei Hauptbereiche:
+Dieses Repository hat drei Hauptbereiche:
 
-- `Training/` fuer Code-Training, Uebungen und thematische Lernaufgaben
+- `Lernen/` fuer Tutorials, Kurse und begleitendes Training
+- `Training/` fuer gezielte Code-Uebungen und technische Vertiefung
 - `Projects/` fuer komplette eigene Projekte mit echtem Showcase-Charakter
 
 ```text
 resume-engineering-portfolio/
 |-- README.md
+|-- Lernen/
+|   |-- tutorials/
+|   `-- training/
 |-- Training/
 |   |-- algorithms/
 |   |-- backend/
@@ -30,22 +34,27 @@ resume-engineering-portfolio/
 
 Die Idee dahinter ist einfach:
 
-- In `Training/` kommt alles hinein, was du zum Lernen, Ueben und Vertiefen schreibst.
+- In `Lernen/` kommen Tutorials, Kurse, Lernreihen und begleitende Notizen hinein.
+- In `Training/` kommt alles hinein, was du als gezielte Uebung oder technische Vertiefung schreibst.
 - In `Projects/` kommt alles hinein, was als vollstaendiges Projekt praesentiert werden soll.
 
-So ist auf GitHub sofort sichtbar, was Lernfortschritt ist und was echte Projektarbeit ist.
+So ist auf GitHub sofort sichtbar, was Tutorial-Lernen, was Uebung und was echte Projektarbeit ist.
 
 ## So arbeitest du damit in VS Code
 
 Wenn du neuen Code schreibst, ordnest du ihn nur einer dieser zwei Fragen zu:
 
-1. Ist es eine Uebung, ein Experiment oder ein Lernbeispiel?
+1. Ist es ein Tutorial, ein Kurs, ein Lernpfad oder begleitender Lerncode?
+   Dann kommt es in `Lernen/`.
+2. Ist es eine Uebung, ein Experiment oder ein Lernbeispiel?
    Dann kommt es in `Training/`.
-2. Ist es ein komplettes Projekt mit eigener Idee, Struktur und mehreren Features?
+3. Ist es ein komplettes Projekt mit eigener Idee, Struktur und mehreren Features?
    Dann kommt es in `Projects/`.
 
 ## Beispiel
 
+- AI-Kurse, Tutorials, Mitschriften, Begleitcode:
+  `Lernen/`
 - LeetCode, kleine API-Uebung, SQL-Aufgabe, Python-Skript zum Lernen:
   `Training/`
 - Portfolio-Website, Dashboard, Fullstack-App, Tool mit echtem Nutzen:
@@ -64,6 +73,11 @@ In `Training/`:
 
 - pro Thema ein Unterordner
 - kleine README mit Aufgabe, Loesung und Learnings
+
+In `Lernen/`:
+
+- pro Kurs oder Tutorial ein eigener Unterordner
+- README mit Quelle, Thema, Tagen oder Modulen und Notizen
 
 In `Projects/`:
 
