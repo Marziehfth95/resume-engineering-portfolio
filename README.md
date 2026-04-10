@@ -1,4 +1,4 @@
-# Resume Engineering Portfolio
+# Lernen und Projekte
 
 Ein sauber strukturiertes Portfolio-Repository fuer GitHub und den Lebenslauf.
 Es ist bewusst einfach aufgebaut, damit neue Arbeiten aus VS Code schnell,
