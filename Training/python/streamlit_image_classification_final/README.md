@@ -1,4 +1,4 @@
-AI Image Classification Dashboard with Streamlit
+### AI Image Classification Dashboard with Streamlit
 Ein interaktives Web Dashboard zum Klassifizieren von Bildern in Echtzeit mithilfe moderner Deep Learning Modelle.
 Das Projekt zeigt, wie man mit Streamlit, Hugging Face Transformers und einfacher Python Logik eine professionelle AI Applikation baut.
 
