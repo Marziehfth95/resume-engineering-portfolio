@@ -1,4 +1,4 @@
-AI Image Classification Dashboard with Streamlit
+## AI Image Classification Dashboard with Streamlit
 Ein interaktives Web Dashboard zum Klassifizieren von Bildern in Echtzeit mithilfe moderner Deep Learning Modelle.
 Das Projekt zeigt, wie man mit Streamlit, Hugging Face Transformers und einfacher Python Logik eine professionelle AI Applikation baut.
 
@@ -6,7 +6,7 @@ Dieses Projekt wurde aus dem Bereich Artificial Intelligence auf der Codecademy 
 
 
 
-🎯 Was dieses Projekt macht
+#### Was dieses Projekt macht
 Nutzer laden ein Bild hoch (oder testen mit Beispielbildern).
 
 Das Dashboard klassifiziert das Bild mit zwei state of the art Modellen:
@@ -24,7 +24,7 @@ google/vit-base-patch16-224	Vision Transformer (ViT)	1.000 ImageNetKategorien, h
 microsoft/resnet-50	Residual Network (ResNet‑50)	1.000 ImageNet‑Kategorien, robuste klassische CNN‑Architektur.
 
 
-Technologien & Tools
+#### Technologien & Tools
 Python: Programmiersprache des Projekts
 
 Streamlit: Für die interaktive Web‑UI
@@ -37,7 +37,7 @@ Matplotlib : Visualisierung von Confusion Scores, Top‑k Vorhersagen und Analyt
 
 Pandas: Speicherung und Analyse der Klassifikationshistorie
 
-Hauptfunktionen des Dashboards
+#### Hauptfunktionen des Dashboards
 - Single Image Analysis
 
 - Bild hochladen und anzeigen.
@@ -70,7 +70,7 @@ Vergleich von:
 
 Einsatz als Prototyp für produktive AI‑Tools.
 
-Testdatensätze (optional zum Training / Testen)
+#### Testdatensätze (optional zum Training / Testen)
 Dieses Projekt kann mit verschiedenen Bild‑Datensätzen getestet werden, z.b.:
 
 - Animal Image Dataset (90 Tiere)
@@ -87,16 +87,15 @@ Ziel des Projekts
 - Verstehen, wie Vision Transformers vs. klassische CNNs performen.
 - Ein Projekt für Data Science / ML  aufbauen.
 
-Lernziele
+#### Lernziele
 Mit diesem Projekt lerne ich:
-
 - Wie man ein vortrainiertes Modell von Hugging Face nutzt.
 - Echtzeit Bildklassifikation mit Streamlit umzusetzen.
 - Klassifikationshistorie persistent zu speichern und zu analysieren.
 - Performance Metriken und Visualisierungen zu erstellen
 
 
-Hinweis zur Quelle
+#### Hinweis zur Quelle
 
 Dieses Projekt wurde inspiriert durch die Codecademy Serie „Build an AI Image Classification Dashboard with Streamlit“ im Bereich Artificial Intelligence:
 
