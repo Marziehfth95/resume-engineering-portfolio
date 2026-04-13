@@ -17,11 +17,9 @@ resume-engineering-portfolio/
 |-- README.md
 |-- Lernen/
 |   |-- tutorials/
-|   `-- training/
+|   
 |-- Training/
 |   |-- algorithms/
-|   |-- backend/
-|   |-- frontend/
 |   |-- python/
 |   `-- sql/
 `-- Projects/
@@ -38,18 +36,6 @@ Die Idee dahinter ist einfach:
 - In `Training/` kommt alles hinein, was du als gezielte Uebung oder technische Vertiefung schreibst.
 - In `Projects/` kommt alles hinein, was als vollstaendiges Projekt praesentiert werden soll.
 
-So ist auf GitHub sofort sichtbar, was Tutorial-Lernen, was Uebung und was echte Projektarbeit ist.
-
-## So arbeitest du damit in VS Code
-
-Wenn du neuen Code schreibst, ordnest du ihn nur einer dieser zwei Fragen zu:
-
-1. Ist es ein Tutorial, ein Kurs, ein Lernpfad oder begleitender Lerncode?
-   Dann kommt es in `Lernen/`.
-2. Ist es eine Uebung, ein Experiment oder ein Lernbeispiel?
-   Dann kommt es in `Training/`.
-3. Ist es ein komplettes Projekt mit eigener Idee, Struktur und mehreren Features?
-   Dann kommt es in `Projects/`.
 
 ## Beispiel
 
@@ -60,29 +46,6 @@ Wenn du neuen Code schreibst, ordnest du ihn nur einer dieser zwei Fragen zu:
 - Portfolio-Website, Dashboard, Fullstack-App, Tool mit echtem Nutzen:
   `Projects/`
 
-## Warum diese Struktur stark ist
-
-- sehr leicht zu verstehen
-- sauber fuer Recruiter und Hiring Manager
-- einfach in VS Code zu pflegen
-- gut skalierbar, wenn mehr Themen oder Projekte dazukommen
-
-## Empfehlung fuer neue Inhalte
-
-In `Training/`:
-
-- pro Thema ein Unterordner
-- kleine README mit Aufgabe, Loesung und Learnings
-
-In `Lernen/`:
-
-- pro Kurs oder Tutorial ein eigener Unterordner
-- README mit Quelle, Thema, Tagen oder Modulen und Notizen
-
-In `Projects/`:
-
-- pro Projekt ein eigener Ordner
-- README mit Problem, Loesung, Stack, Features und Learnings
 
 ## Positioning
 
